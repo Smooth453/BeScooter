@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+#__next {
+  min-height: 100%;
+}
+
+.navbar {
+  height: 6rem;
+  
+  transition: height 0.6s ease-in-out;
+}
+
+.navbar-smaller {
+  height: 5rem;
+  font-size: medium;
+  
+}
+
+.pic {
+  transition: width 0.9s ease-in-out;
+  width: 230px;
+  height: auto;
+}
+
+.pic-smaller {
+  width: 180px;
+  height: auto;
+}
+
+.video-docker video {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video-docker::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+@media screen and (max-width: 640px) {
+  .video-docker::after {
+    background: rgba(0, 0, 0, 0.4);
+  }
+}
+
+
+.video-content {
+  z-index: 2;
+}
+
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+}
+
+.transition-height {
+  transition-property: height;
+  transition-timing-function: ease-in-out;
+}
+

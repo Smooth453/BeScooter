@@ -1,0 +1,48 @@
+{
+  "name": "tailwindui-salient",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "browserslist": "defaults, not ie <= 11",
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^1.7.8",
+    "@heroicons/react": "^2.0.16",
+    "@tailwindcss/forms": "^0.5.3",
+    "autoprefixer": "^10.4.12",
+    "clsx": "^1.2.1",
+    "emailjs-com": "^3.2.0",
+    "focus-visible": "^5.2.0",
+    "framer-motion": "^10.1.0",
+    "heroicons": "^2.0.16",
+    "intl-tel-input": "^17.0.19",
+    "next": "13.0.2",
+    "postcss-focus-visible": "^6.0.4",
+    "react": "18.2.0",
+    "react-cookie-consent": "^8.0.1",
+    "react-dom": "18.2.0",
+    "react-intersection-observer": "^9.4.3",
+    "react-scroll": "^1.8.9",
+    "react-scroll-parallax": "^3.3.2",
+    "swiper": "^9.1.0",
+    "tailwindcss": "^3.2.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.2",
+    "file-loader": "^6.2.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "style-loader": "^3.3.1",
+    "tailwindcss-intersect": "^1.0.4"
+  }
+}
