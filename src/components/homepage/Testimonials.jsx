@@ -78,8 +78,8 @@ export function Testimonials() {
           </div>
         </AnimationOnScroll>
         <AnimationOnScroll
-          classNameInView={'opacity-100 translate-x-0 transition duration-[1s]'}
-          classNameNotInView={'opacity-0 translate-x-20'}
+          classNameInView={'md:opacity-100 md:translate-x-0 transition duration-[1s]'}
+          classNameNotInView={'md:opacity-0 md:translate-x-10'}
         >
           <ul
             role="list"
