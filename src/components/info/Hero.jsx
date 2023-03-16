@@ -3,14 +3,14 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FiPlus, FiMinus } from 'react-icons/fi'
 import Image from 'next/image'
-import info1 from '../../images/info/info (1).jpg'
-import info2 from '../../images/info/info (2).jpg'
-import info3 from '../../images/info/info (3).jpg'
-import info4 from '../../images/info/info (6).jpg'
-import info5 from '../../images/info/info (8).jpg'
-import info6 from '../../images/info/info (7).jpg'
-import info7 from '../../images/info/info (4).jpg'
-import cookies from '../../images/info/cookies.jpg'
+import impressum from '../../images/info/Impressum.jpg'
+import Datenschutz from '../../images/info/Datenschutz.jpg'
+import Agb from '../../images/info/Agb.jpg'
+import cookie from '../../images/info/cookies.jpg'
+import Haftung from '../../images/info/Haftung.jpeg'
+import Widderufrecht from '../../images/info/Wiederufrecht.jpeg'
+import Ladenhinweis from '../../images/info/Akkus.jpeg'
+import Batterie from '../../images/info/battery.jpeg'
 import { Link } from 'react-scroll'
 
 export function Hero() {
@@ -59,7 +59,7 @@ export function Hero() {
             >
               <div className="relative h-60 w-full object-cover">
                 <Image
-                  src={info2}
+                  src={impressum}
                   alt="Title 1"
                   layout="fill"
                   priority={true}
@@ -135,7 +135,7 @@ export function Hero() {
             >
               <div className="relative h-60 w-full object-cover">
                 <Image
-                  src={info1}
+                  src={Datenschutz}
                   alt="Title 1"
                   layout="fill"
                   priority={true}
@@ -515,7 +515,9 @@ export function Hero() {
                   einzelnen Cookie entscheiden, ob Sie das Cookie erlauben oder
                   nicht. Durch das Herunterladen und Installieren dieses
                   Browser-Plug-ins auf
-                  https://support.google.com/ads/answer/7395996 werden ebenfalls
+                  https://support.google.com/ads/answer/
+                  <br />
+                  7395996 werden ebenfalls
                   alle „Werbecookies“ deaktiviert. Bedenken Sie, dass Sie durch
                   das Deaktivieren dieser Cookies nicht die Werbeanzeigen
                   verhindern, sondern nur die personalisierte Werbung. Wenn Sie
@@ -528,7 +530,9 @@ export function Hero() {
                   IP-Adresse abgeleitet), dem Browsertyp und der verwendeten
                   Suchbegriffe angezeigt. Welche Daten Google grundsätzlich
                   erfasst und wofür sie diese Daten verwenden, können Sie auf
-                  https://www.google.com/intl/de/policies/privacy/ nachlesen.
+                  https://www.google.com/intl/de/
+                  <br />
+                  policies/privacy/ nachlesen.
                   Google Ads (Google AdWords) Conversion-Tracking
                   Datenschutzerklärung Wir verwenden als
                   Online-Marketing-Maßnahme Google Ads (früher Google AdWords),
@@ -597,7 +601,11 @@ export function Hero() {
                   Beispielwert:
                   EhMI_aySuoyv4gIVled3Ch0llweVGAEgt-mr6aXd7dYlSAGQ311136352
                   Name: _gac Ablaufzeit: nach 3 Monaten Beispielwert:
-                  1.1558695989.EAIaIQobChMIiOmEgYO04gIVj5AYCh2CBAPrEAAYASAAEgIYQfD_BwE
+                  1.1558695989.EAIaIQobChMIiOmEgY
+                  <br />
+                  O04gIVj5AY
+                  <br />
+                  Ch2CBAPrEAAYASAAEgIYQfD_BwE
                   Anmerkung: Das Cookie _gac scheint nur in Verbindung mit
                   Google Analytics auf. Die oben angeführte Aufzählung hat
                   keinen Anspruch auf Vollständigkeit, da Google für analytische
@@ -657,7 +665,9 @@ export function Hero() {
                   einzelnen Cookie entscheiden, ob Sie das Cookie erlauben oder
                   nicht. Durch das Herunterladen und Installieren dieses
                   Browser-Plug-ins auf
-                  https://support.google.com/ads/answer/7395996 werden ebenfalls
+                  https://support.google.com/ads/
+                  <br />
+                  answer/7395996 werden ebenfalls
                   alle „Werbecookies“ deaktiviert. Bedenken Sie, dass Sie durch
                   das Deaktivieren dieser Cookies nicht die Werbeanzeigen
                   verhindern, sondern nur die personalisierte Werbung. Durch die
@@ -667,7 +677,9 @@ export function Hero() {
                   Datenschutzgesetze einhalten. Wenn Sie Näheres über den
                   Datenschutz bei Google erfahren möchten, empfehlen wir die
                   allgemeine Datenschutzerklärung von Google:
-                  https://policies.google.com/privacy?hl=de. Newsletter
+                  https://policies.google.com/
+                  <br />
+                  privacy?hl=de. Newsletter
                   Datenschutzerklärung Wenn Sie sich für unseren Newsletter
                   eintragen übermitteln Sie die oben genannten persönlichen
                   Daten und geben uns das Recht Sie per E-Mail zu kontaktieren.
@@ -811,7 +823,9 @@ export function Hero() {
                   Informationen über gespeicherten Daten zu bekommen. Welche
                   Daten grundsätzlich von Google erfasst werden und wofür diese
                   Daten verwendet werden, können Sie auch auf
-                  https://www.google.com/intl/de/policies/privacy/ nachlesen.
+                  https://www.google.com/intl/de/
+                  <br />
+                  policies/privacy/ nachlesen.
                   Google Analytics Datenschutzerklärung Wir verwenden auf dieser
                   Website Google Analytics der Firma Google LLC (1600
                   Amphitheatre Parkway Mountain View, CA 94043, USA) um
@@ -829,7 +843,9 @@ export function Hero() {
                   Beispielhafter Wert: 1 Nähere Informationen zu
                   Nutzungsbedingungen und Datenschutz finden Sie unter
                   http://www.google.com/analytics/terms/de.html bzw. unter
-                  https://support.google.com/analytics/answer/6004245?hl=de.
+                  https://support.google.com/analytics/answer/
+                  <br />
+                  6004245?hl=de.
                   Pseudonymisierung Unser Anliegen im Sinne der DSGVO ist die
                   Verbesserung unseres Angebotes und unseres Webauftritts. Da
                   uns die Privatsphäre unserer Nutzer wichtig ist, werden die
@@ -865,7 +881,9 @@ export function Hero() {
                   Analytics-Datenerfassungsnetzwerk eintreffen und bevor eine
                   Speicherung oder Verarbeitung der Daten stattfindet. Mehr
                   Informationen zur IP-Anonymisierung finden Sie auf
-                  https://support.google.com/analytics/answer/2763052?hl=de.
+                  https://support.google.com/analytics/answer/
+                  <br />
+                  2763052?hl=de.
                   Google Analytics Berichte zu demografischen Merkmalen und
                   Interessen Wir haben in Google Analytics die Funktionen für
                   Werbeberichte eingeschaltet. Die Berichte zu demografischen
@@ -874,7 +892,9 @@ export function Hero() {
                   Daten einzelnen Personen zuordnen zu können – ein besseres
                   Bild von unseren Nutzern machen. Mehr über die Werbefunktionen
                   erfahren Sie auf
-                  https://support.google.com/analytics/answer/3450482?hl=de_AT&utm_id=ad.
+                  https://support.google.com/analytics/answer/
+                  <br />
+                  3450482?hl=de_AT&utm_id=ad.
                   Sie können die Nutzung der Aktivitäten und Informationen Ihres
                   Google Kontos unter “Einstellungen für Werbung” auf
                   https://adssettings.google.com/authenticated per Checkbox
@@ -884,7 +904,9 @@ export function Hero() {
                   Datenverarbeitung” in Google Analytics akzeptiert haben. Mehr
                   über den Zusatz zur Datenverarbeitung für Google Analytics
                   finden Sie hier:
-                  https://support.google.com/analytics/answer/3379636?hl=de&utm_id=ad
+                  https://support.google.com/analytics/answer/
+                  <br />
+                  3379636?hl=de&utm_id=ad
                   Google Maps Datenschutzerklärung Wir benützen auf unserer
                   Website Google Maps der Firma Google Inc. (1600 Amphitheatre
                   Parkway Mountain View, CA 94043, USA). Mit Google Maps können
@@ -952,7 +974,9 @@ export function Hero() {
                   sich allerdings in Amerika. Aus diesem Grund werden Ihre Daten
                   auch vermehrt in den USA gespeichert. Hier können Sie genau
                   nachlesen wo sich die Google-Rechenzentren befinden:
-                  https://www.google.com/about/datacenters/inside/locations/?hl=de
+                  https://www.google.com/about/datacenters/
+                  <br />
+                  inside/locations/?hl=de
                   Die Daten verteilt Google auf verschiedenen Datenträgern.
                   Dadurch sind die Daten schneller abrufbar und werden vor
                   etwaigen Manipulationsversuchen besser geschützt. Jedes
@@ -1142,7 +1166,9 @@ export function Hero() {
                   nähergebracht. Wenn Sie mehr darüber erfahren wollen, wie
                   Facebook Ihre Daten verwendet, empfehlen wir Ihnen die
                   Datenrichtlinien auf
-                  https://www.facebook.com/about/privacy/update. Instagram
+                  https://www.facebook.com/about/privacy/
+                  <br />
+                  update. Instagram
                   Datenschutzerklärung Wir haben auf unserer Webseite Funktionen
                   von Instagram eingebaut. Instagram ist eine Social Media
                   Plattform des Unternehmens Instagram LLC, 1601 Willow Rd,
@@ -1409,7 +1435,9 @@ export function Hero() {
                   Daten gespeichert? Die Daten, die YouTube von Ihnen erhält und
                   verarbeitet werden auf den Google-Servern gespeichert. Die
                   meisten dieser Server befinden sich in Amerika. Unter
-                  https://www.google.com/about/datacenters/inside/locations/?hl=de
+                  https://www.google.com/about/datacenters/
+                  <br />
+                  inside/locations/?hl=de
                   sehen Sie genau wo sich die Google-Rechenzentren befinden.
                   Ihre Daten sind auf den Servern verteilt. So sind die Daten
                   schneller abrufbar und vor Manipulation besser geschützt. Die
@@ -1690,12 +1718,18 @@ export function Hero() {
                   dieser Webseite Ihrem Facebook-Benutzerkonto zugeordnet. Wie
                   das Facebook-Pixel für Werbekampagnen genutzt wird, erfahren
                   Sie auf
-                  https://www.facebook.com/business/learn/facebook-ads-pixel.
+                  https://www.facebook.com/
+                  <br />
+                  business/learn/facebook
+                  
+                  -ads-pixel.
                   Sie können Ihre Einstellungen für Werbeanzeigen in Facebook
                   auf
                   https://www.facebook.com/ads/preferences/?entry_product=ad_settings_screen
                   verändern, sofern Sie in Facebook angemeldet sind. Auf
-                  http://www.youronlinechoices.com/de/praferenzmanagement/
+                  http://www.youronlinechoices.com/de/
+                  <br />
+                  praferenzmanagement/
                   können Sie Ihre Präferenzen hinsichtlich nutzungsbasierter
                   Online-Werbung verwalten. Sie können dort viele Anbieter auf
                   einmal deaktivieren oder aktivieren oder die Einstellungen für
@@ -1891,7 +1925,9 @@ export function Hero() {
                   Eine gute Übersicht über die grundsätzliche Verwendung von
                   Daten bei Google finden Sie in der hauseigenen
                   Datenschutzerklärung auf
-                  https://www.google.com/intl/de/policies/privacy/. Quelle:
+                  https://www.google.com/intl/de/
+                  <br />
+                  policies/privacy/. Quelle:
                   Erstellt mit dem Datenschutz Generator von AdSimple in
                   Kooperation mit slashtechnik.de
                 </p>
@@ -1934,7 +1970,7 @@ export function Hero() {
             >
               <div className="relative h-60 w-full object-cover">
                 <Image
-                  src={info3}
+                  src={Agb}
                   alt="Title 1"
                   layout="fill"
                   priority={true}
@@ -2830,7 +2866,7 @@ export function Hero() {
             >
               <div className="relative h-60 w-full object-cover">
                 <Image
-                  src={cookies}
+                  src={cookie}
                   alt="Title 1"
                   layout="fill"
                   priority={true}
@@ -2982,12 +3018,11 @@ export function Hero() {
               exit={{ height: 0, opacity: 0 }}
               transition={{ duration: 0.3, ease: 'easeInOut' }}
             >
-              <div className="relative h-60 w-full">
+              <div className="relative h-60 w-full object-cover">
                 <Image
-                  src={info6}
+                  src={Haftung}
                   alt="Title 1"
                   layout="fill"
-                  objectFit="cover"
                   priority={true}
                 />
               </div>
@@ -3060,13 +3095,13 @@ export function Hero() {
             >
               <div className="relative h-60 w-full object-cover">
                 <Image
-                  src={info5}
+                  src={Widderufrecht}
                   alt="Title 1"
                   layout="fill"
-                  objectFit="cover"
                   priority={true}
                 />
               </div>
+              
               <div className="flex flex-col justify-center">
                 <p>
                   <br />
@@ -3242,12 +3277,11 @@ export function Hero() {
               exit={{ height: 0, opacity: 0 }}
               transition={{ duration: 0.3, ease: 'easeInOut' }}
             >
-              <div className="relative h-60 w-full">
+              <div className="relative h-60 w-full object-cover">
                 <Image
-                  src={info4}
+                  src={Ladenhinweis}
                   alt="Title 1"
                   layout="fill"
-                  objectFit="cover"
                   priority={true}
                 />
               </div>
@@ -3397,12 +3431,12 @@ export function Hero() {
               exit={{ height: 0, opacity: 0 }}
               transition={{ duration: 0.3, ease: 'easeInOut' }}
             >
-              <div className="relative h-60 w-full">
+              
+              <div className="relative h-60 w-full object-cover">
                 <Image
-                  src={info7}
+                  src={Batterie}
                   alt="Title 1"
                   layout="fill"
-                  objectFit="cover"
                   priority={true}
                 />
               </div>

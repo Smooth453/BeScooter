@@ -40,10 +40,10 @@ export function Footer() {
           <Link href="/jobs" className="hover:bg-slate-100 hover:bg-opacity-50 hover:text-slate-900 text-lg ">Jobs</Link>
         </li>
         <li className='mb-4'>
-          <Link href="https://tailwindcss.com/" className="hover:bg-slate-100 hover:bg-opacity-50 hover:text-slate-900 text-lg ">E-SCooTER-Versicherung</Link>
+          <Link href="https://tailwindcss.com/" className="hover:bg-slate-100 hover:bg-opacity-50 hover:text-slate-900 text-lg ">E-SCooTER REPARATUR</Link>
         </li>
         <li>
-          <Link href="https://store.be-scooter.de/" className="hover:bg-slate-100 hover:bg-opacity-50 hover:text-slate-900 text-lg ">Online SToRE!</Link>
+          <Link href="https://store.be-scooter.de/" className="hover:bg-slate-100 hover:bg-opacity-50 hover:text-slate-900 text-lg "> &quot;SToRE Online!&quot;</Link>
         </li>
       </ul>
     </div>

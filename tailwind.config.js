@@ -33,7 +33,9 @@ module.exports = {
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
         display: ['Lexend', ...defaultTheme.fontFamily.sans],
-        poppins: ['Poppins','sans-serif']
+        poppins: ['Poppins','sans-serif'],
+        encode: ['Encode Sans Expanded', 'sans-serif', 'font-extrabold']
+
       },
       maxWidth: {
         '2xl': '40rem',

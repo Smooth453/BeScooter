@@ -21,6 +21,8 @@ import logo14 from '../../images/avatars/logo(14).png'
 import logo15 from '../../images/avatars/logo(15).png'
 import logo16 from '../../images/avatars/logo(16).png'
 import logo17 from '../../images/avatars/logo(17).png'
+import logo18 from '../../images/avatars/logo(18).jpeg'
+import logo19 from '../../images/avatars/logo(19).png'
 import bePartners from '../../images/avatars/bePartners.png'
 
 const sponsorLogos = [
@@ -291,6 +293,34 @@ export function Sponsors() {
                 <Image
                   className="object-contain"
                   src={logo17}
+                  sizes="100vw"
+                  alt=""
+                  width={200}
+                  height={200}
+                  priority={true}
+                />
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className=" lg:px-10 h-10 cursor-pointer mt-4">
+              <div className="relative ">
+                <Image
+                  className="object-contain"
+                  src={logo18}
+                  sizes="100vw"
+                  alt=""
+                  width={200}
+                  height={200}
+                  priority={true}
+                />
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className=" lg:px-10 h-20 cursor-pointer    mt-4">
+              <div className="relative h-full">
+                <Image
+                  className="object-contain"
+                  src={logo19}
                   sizes="100vw"
                   alt=""
                   width={200}

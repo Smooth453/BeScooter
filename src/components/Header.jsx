@@ -88,7 +88,7 @@ function MobileNavigation() {
           >
             <MobileNavLink href="/">Home</MobileNavLink>
             <MobileNavLink href="/store">
-              SToRE! Heuchelheim
+            &quot;SToRE!&quot; Heuchelheim
             </MobileNavLink>
             <MobileNavLink href="/E-scooter-leihen">
               E-Scooter leihen
@@ -100,7 +100,7 @@ function MobileNavigation() {
             <MobileNavLink href="/#kontakt">Kontakt uns</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
             <MobileNavLink className="" href="https://store.be-scooter.de/">
-              Direkt Zum Online SToRE!
+              Direkt Zum  &quot;SToRE ONLINE!&quot;
             </MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
@@ -175,7 +175,7 @@ export function Header() {
             </Link>
           </div>
           <div className="hidden items-center md:flex md:gap-x-6 ">
-            <NavLink href="/store">SToRE! Heuchelheim</NavLink>
+            <NavLink href="/store">&quot;SToRE!&quot; Heuchelheim</NavLink>
             <NavLink href="/E-scooter-leihen/">E-Scooter leihen</NavLink>
 
             <div className="relative" ref={dropdownRef}>
@@ -225,7 +225,7 @@ export function Header() {
               className="hover:bg-white-500 hidden border border-black hover:border-white hover:opacity-80 md:block"
             >
               <span>
-                Direkt zum Online SToRe!{' '}
+                Direkt zum &quot;SToRE ONLINE!&quot; {' '}
                 <span className="lg:inline hidden"></span>
               </span>
             </Button>

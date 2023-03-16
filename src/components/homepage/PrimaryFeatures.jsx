@@ -82,7 +82,7 @@ export function PrimaryFeatures() {
       </div>
       </AnimationOnScroll>
 
-      <div className="xl:max-w-none max-w-6xl md:mx-auto md:text-center text-lg font-poppins ">
+      <div className="xl:max-w-none max-w-6xl md:mx-auto md:text-center text-lg font-encode ">
       <AnimationOnScroll classNameInView={"opacity-100 translate-y-0 transition duration-[1s]"} classNameNotInView={"opacity-0 translate-y-10"}> 
         <p className="text-bold m-6 text-lg tracking-tight text-[#FFFFFF] pt-5 opacity-0 translate-y-10 intersect:opacity-100 intersect:translate-y-0 transition duration-1000">
           Unser &quot;SToRE!&quot; in Heuchelheim wird zu 100 % mit ÖKO-STROM aus Hessen
