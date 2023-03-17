@@ -14,7 +14,7 @@ export function Faqs() {
       
       <div className="mx-auto md:grid md:grid-cols-2 px-5 md:py-20 py-5">
       <AnimationOnScroll classNameInView={"opacity-100 translate-x-0 transition duration-1000"} classNameNotInView={"opacity-0 -translate-x-20"}>
-        <div className="lg:h-[720px] md:h-[560px] lg:w-2/3 sm:mr-10 relative md:flex md:flex-col items-end justify-start rounded-lg bg-gray-300 p-10 md:w-full">
+        <div className="lg:h-[720px] md:h-[560px] lg:w-[900px] sm:mr-10 relative md:flex md:flex-col items-end justify-start rounded-lg bg-gray-300 p-10 md:w-full ">
           <iframe
             className="grayscale-20 contrast-60 absolute inset-0 h-full w-full opacity-50 filter "
             title="map"

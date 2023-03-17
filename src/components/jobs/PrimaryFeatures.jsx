@@ -23,7 +23,7 @@ export function PrimaryFeautures() {
           <div cclassName="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg h-[598px] flex-col justify-between font-poppins md:flex text-center">
               <div>
-                <h2 className="sm:text-4xl text-grey-500 mt-5 break-words text-3xl font-bold tracking-widest">
+                <h2 className=" text-grey-500 mt-5 break-words md:text-3xl text-2xl font-bold tracking-widest">
                   ❗ WIR SUCHEN DICH ❗
                 </h2>
                 <p className="text-md text-grey-200 mt-6 leading-8 md:text-lg">
@@ -36,7 +36,7 @@ export function PrimaryFeautures() {
                   E-SCooTERN
                 </h2>
               </div>
-              <p className="text-md text-grey-200 leading-8 md:text-lg mt-5">
+              <p className="text-md text-grey-200 leading-8 md:text-lg ">
                 Wir verleihen und verkaufen elektrounterstützte Tretroller /
                 E-SCooTER von den weltweit führenden Unternehmen im Bereich
                 zweirädriger Elektromobilität. Weiterhin sind wir auf Touren und

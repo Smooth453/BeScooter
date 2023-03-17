@@ -11,7 +11,7 @@ export function SecondaryFeatures() {
           src={segway}
         />
       </div>
-      <div className="video-content space-y-9 md:w-[900px] md:mt-20 mt-3 mb-4">
+      <div className="video-content space-y-9 md:w-[900px] lg:mt-20 mt-3 mb-4">
         <h1 className="md:text-6xl text-lg font-bold break-word">
           DIE NEUE F-SERIE VON NINEBOT POWERED BY SEGWAY IST DA!
         </h1>

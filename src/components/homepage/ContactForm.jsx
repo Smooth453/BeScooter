@@ -74,10 +74,10 @@ const ContactForm = () => {
     <div className="mt-8 w-full bg-transparent md:ml-auto md:mt-0 md:flex md:w-full md:flex-col lg:py-8 md:pl-10 overflow-hidden ">
       {' '}
       {status && renderAlert()}
-      <h2 className="title-font mb-1 text-center font-bold text-gray-900 md:text-2xl">
+      <h2 className="title-font mb-1 text-center font-bold text-gray-900 md:text-2xl lg:text-3xl">
         BE-SCOOTER® ...FUNSPORT ERFAHREN!
       </h2>
-      <p className="md:mb-0 leading-relaxed text-black text-center">
+      <p className="md:mb-0 lg:mb-10 leading-relaxed text-black text-center">
         Bitte zögern Sie nicht, uns zu kontaktieren, falls Sie Fragen oder
         Anliegen haben. Wir sind gerne für Sie da und helfen Ihnen weiter. Sie
         können uns entweder per E-Mail, Telefon oder über das Kontaktformular
@@ -86,7 +86,7 @@ const ContactForm = () => {
       
       <form onSubmit={handleSubmit}>
         <div>
-        <label className='text-slate-200 md:text-black text-sm'>Full Name :</label>
+        <label className='text-slate-200 md:text-black text-sm '>Full Name :</label>
         <InputField
           value={values.fullName}
           handleChange={handleChange}

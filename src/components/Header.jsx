@@ -159,7 +159,7 @@ export function Header() {
 
   return (
     <header
-      className={` navbar top-0 z-50 bg-gradient-to-b from-blue-400 to-green-400 py-3 transition duration-500 md:sticky ${
+      className={` navbar top-0 z-50 bg-gradient-to-b from-blue-400 to-green-400 py-3 lg:pt-10 transition duration-500 md:sticky ${
         isScrolled ? 'navbar-smaller' : ''
       }`}
     >
