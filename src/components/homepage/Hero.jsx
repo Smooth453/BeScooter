@@ -24,7 +24,7 @@ const data = [
     title: 'VERKAUF',
     image: verkauf,
     content:
-      'Komme doch einfach bei uns im "SToRE!" in Heuchelheim vorbei und lasse dich von uns persönlich beraten. Wir helfen dir gerne dabei, den perfekten E-Scooter für deine Bedürfnisse zu finden und bieten dir sogar eine kostenlose Probefahrt an. Wenn du bereits weißt, welchen E-Scooter du haben möchtest, kannst du auch direkt in unserem "SToRE ONLINE!" bestellen. Wir freuen uns darauf, dich kennenzulernen und dir dabei zu helfen, mobil und umweltbewusst unterwegs zu sein.',
+      '',
     buttonText: 'E-Scooter Kaufen',
     href: 'https://store.be-scooter.de/',
   },
@@ -51,7 +51,7 @@ const data = [
     title: 'EVENTS',
     image: events,
     content:
-      'Ob Betriebsausflug, Firmenevent oder Geburtstagsfeier - erlebe ein ganz besonderes Event mit jeder Menge Spaß individuell nach Deinen Wünschen.',
+      'Entdecke die Stadt auf eine neue Art und Weise mit unseren eScooter-events! Wir bieten eine umweltfreundliche und schnelle Möglichkeit, um zu verschiedenen Orten zu gelangen und die Umgebung zu erkunden. Unsere erfahrenen Guides stehen Dir zur Seite, um sicherzustellen, dass Dein Event reibungslos verläuft und Du eine unvergessliche Erfahrung machst.',
     buttonText: 'Events Entdecken',
     href: '/events',
   },
@@ -123,8 +123,8 @@ export function Hero() {
         {data.map((card, index) => (
           <div
             key={card.id}
-            className={`relative md:h-[392px] h-[720px] lap:h-[295px] w-full overflow-hidden rounded-3xl transition-all duration-700 ease-in-out ${
-              expandedCard === card.id ? 'md:h-[50rem] lap:h-[37rem]' : ''
+            className={`relative lg:h-[392px] h-[720px] md:h-[220px] w-full overflow-hidden rounded-3xl transition-all duration-700 ease-in-out ${
+              expandedCard === card.id ? 'lg:h-[50rem] md:h-[29rem]' : ''
             }  ${index < 3 ? upperCardsClass : ''} ${
               index >= 3 ? LowerCardsClass : ''
             }`}
@@ -144,7 +144,7 @@ export function Hero() {
               }`}
             >
               <h2
-                className={`mb-4 md:text-3xl text-2xl font-semibold text-white top-4 absolute`}
+                className={`mb-4 lg:text-3xl text-2xl font-semibold text-white top-4 absolute`}
               >
                 {card.title}
               </h2>
@@ -153,12 +153,19 @@ export function Hero() {
                 <>
                
                   <p
-                    className="md:text-xl text-md lap:text-sm md:mb-24 lap:mb-5  text-white mt-[230px] "
+                    className="lg:text-xl text-lg md:text-sm lg:mb-24 md:mb-0  text-white mt-[230px] "
                     dangerouslySetInnerHTML={{ __html: card.content }}
                   ></p>
+                  {card.id === 2 && (
+                    <p
+                    className="lg:text-xl text-lg md:text-sm  lg:mb-24 md:mt-10 md:mb-8  text-white "
+                    
+                  >
+                    Komme doch einfach bei uns im &quot;SToRE!&quot; in Heuchelheim vorbei und lasse dich von uns persönlich beraten. Wir helfen dir gerne dabei, den perfekten E-Scooter für deine Bedürfnisse zu finden und bieten dir sogar eine kostenlose Probefahrt an. Wenn du bereits weißt, welchen E-Scooter du haben möchtest, kannst du auch direkt in unserem &quot;SToRE ONLINE!&quot; bestellen. Wir freuen uns darauf, dich kennenzulernen und dir dabei zu helfen, mobil und umweltbewusst unterwegs zu sein.</p>
+                  )}
                   {card.id === 1 && (
                     <p
-                    className="md:text-xl text-md lap:text-sm md:mb-24 lap:mt-10 lap:mb-8  text-white mt-[0px]"
+                    className="lg:text-xl md:text-sm  lg:mb-24 md:mt-10 lap:mb-8  text-white mt-[0px]"
                     
                   >
                     Unser Ziel ist es, dass ihr stets sicher und sorgenfrei unterwegs seid. Wir kümmern uns um euren E-Scooter und bieten euch einen umfassenden Service, damit ihr euch auf das Fahren konzentrieren könnt. Dazu gehört:</p>
@@ -166,7 +173,7 @@ export function Hero() {
                   {card.id === 1 && (
                     <ul
                                     role="list"
-                                    className="mr-auto text-sm lap:text-sm md:text-lg mt-0 space-y-2 whitespace-nowrap font-semibold text-slate-100"
+                                    className="mr-auto text-md md:text-xs lg:text-lg mt-0 space-y-2 whitespace-nowrap font-semibold text-slate-100"
                                   >
                                     <li className="mt-24 flex gap-x-3 md:mt-0 ">
                                       <CheckIcon
@@ -194,7 +201,7 @@ export function Hero() {
                                         className="h-6 w-5 flex-none text-slate-100"
                                         aria-hidden="true"
                                       />
-                                      Probleme zu analysieren und eine Lösung <br /> zu finden.
+                                      Probleme zu analysieren und eine <br /> Lösung zu finden.
                                     </li>
                                     <li className="flex gap-x-3">
                                       <CheckIcon
@@ -215,14 +222,22 @@ export function Hero() {
                   <div className='mt-auto mb-10 w-full text-center'>
                   <a
                 href={card.href}
-                className="mt-20 block rounded-md border-[#4a6d92] bg-[#4a6d92] py-3 px-4 font-bold text-white hover:bg-[#3f5872] hover:-translate-y-1 transition duration-300"
+                className="mt-24 md:mt-12 block rounded-md border-[#4a6d92] bg-[#4a6d92] py-3 px-4 font-bold text-white hover:bg-[#3f5872] hover:-translate-y-1 transition duration-300"
               >
                 {card.buttonText}
               </a>
               {card.id === 1 && (
                     <a
                     href={card.href}
-                    className="md:mt-44 mt-24 block rounded-md border-[#4a6d92] bg-[#4a6d92] py-3 px-4 font-bold text-white hover:bg-[#3f5872] hover:-translate-y-1 transition duration-300"
+                    className="lg:mt-44 mt-24 md:mt-32 block rounded-md border-[#4a6d92] bg-[#4a6d92] py-3 px-4 font-bold text-white hover:bg-[#3f5872] hover:-translate-y-1 transition duration-300"
+                  >
+                    {card.buttonText}
+                  </a>
+                  )}
+                  {card.id === 2 && (
+                    <a
+                    href={card.href}
+                    className="lg:mt-44 mt-20 md:mt-32 block rounded-md border-[#4a6d92] bg-[#4a6d92] py-3 px-4 font-bold text-white hover:bg-[#3f5872] hover:-translate-y-1 transition duration-300"
                   >
                     {card.buttonText}
                   </a>

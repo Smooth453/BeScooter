@@ -96,14 +96,14 @@ export function PrimaryFeatures() {
           Zukunft mitgestalten und verändern. Wir bieten und stehen für:
         </p>
         </AnimationOnScroll>
-        <div className="md:grid md:grid-cols-3 gap-2 rounded-3xl text-left ">
-          <AnimationOnScroll classnames="m-2 rounded-3xl border border-slate-200 text-[#FFFFFF]  tansparent p-4 " classNameInView={"opacity-100 translate-x-0 transition duration-[1s] delay-100"} classNameNotInView={"opacity-0 md:-translate-x-full"} >
+        <div className="md:grid md:grid-cols-3 gap-1 rounded-3xl text-left ">
+          <AnimationOnScroll classnames="m-2 rounded-3xl border border-slate-200 text-[#FFFFFF]  tansparent p-4 " classNameInView={"opacity-100 translate-y-0 transition duration-[1s] delay-100"} classNameNotInView={"opacity-0 md:-translate-y-full"} >
           
           • Umweltfreundliche, zuverlässige und wiederaufladbare
             Mobilitätslösungen
        
           </AnimationOnScroll>
-          <AnimationOnScroll classnames="m-2 rounded-3xl border border-slate-200 text-[#FFFFFF]  tansparent p-4 " classNameInView={"opacity-100 translate-x-0 transition duration-[1s] delay-150"} classNameNotInView={"opacity-0 md:-translate-x-full"}>
+          <AnimationOnScroll classnames="m-2 rounded-3xl border border-slate-200 text-[#FFFFFF]  tansparent p-4 " classNameInView={"opacity-100 translate-y-0 transition duration-[1s] delay-150"} classNameNotInView={"opacity-0 md:-translate-x-full"}>
         
           • Zwei- und Dreiräder die für SPASS an der Bewegung und Beweglichkeit
             des ganzen Körpers stehen
@@ -114,7 +114,7 @@ export function PrimaryFeatures() {
           • Unser Ziel bei BE-SCooTER® ist es, dass sich unsere Kunden wohl fühlen, durch eine kundenorientierte Arbeitsweise und einem Mehr an Service.
       
           </AnimationOnScroll>
-          <AnimationOnScroll classnames="m-2 rounded-3xl border border-slate-200 text-[#FFFFFF]  tansparent p-4 " classNameInView={"opacity-100 translate-x-0 transition duration-[1s] delay-100"} classNameNotInView={"opacity-0 md:-translate-x-full"}>
+          <AnimationOnScroll classnames="m-2 rounded-3xl border border-slate-200 text-[#FFFFFF]  tansparent p-4 " classNameInView={"opacity-100 translate-x-0 transition duration-[1s] delay-100"} classNameNotInView={"opacity-0 md:-translate-y-full"}>
           
           • Praktisches im Alltag erprobtes Zubehör für E-SCooTER,
             Fahrräder/eBikes und vielen anderen Fahrzeugen.

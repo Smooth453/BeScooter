@@ -5,8 +5,8 @@ module.exports = {
   content: ['./src/**/*.{js,jsx}'],
   theme: {
     screens: {
-      'md': '1450px',
-      'lap': '866px',
+      'lg': '1450px',
+      'md': '768px',
       // => @media (min-width: 576px) { ... }
     },
     fontSize: {
