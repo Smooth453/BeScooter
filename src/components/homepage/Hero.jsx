@@ -289,7 +289,7 @@ export function Hero() {
               )}
             </div>
             {expandedCard !== card.id && (
-              <div className="absolute inset-x-0 top-1/2 mt-[-1.5em] hidden md:block">
+              <div className="absolute inset-x-0 top-1/2 mt-[-1.5em] hidden md:block transition duration-100 ease-in-out">
                 <h2 className=" text-center text-3xl font-semibold text-white">
                   {card.title}
                 </h2>
