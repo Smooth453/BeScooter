@@ -33,7 +33,7 @@ const data = [
     title: 'VERLEIH',
     image: verleih,
     content:
-      'Ob für einen Tag, ein Wochenende oder den Urlaub an der See sowie dem Campingplatz - erfahre mit einem unserer Leih-E-Scooter, zahlreiche Vorteile, spare bares Geld und habe Spaß.',
+      'E-SCooTER muss mit! Ob für einen Tag, ein Wochenende oder den Urlaub an der See sowie dem Campingplatz - erfahre mit einem unserer Leih-E-Scooter, zahlreiche Vorteile, spare bares Geld und habe Spaß.',
     buttonText: 'Jetzt Leihen',
     href: '/e-scooter-leihen',
   },
@@ -123,8 +123,8 @@ export function Hero() {
         {data.map((card, index) => (
           <div
             key={card.id}
-            className={`relative md:h-[392px] h-[720px] w-full overflow-hidden rounded-3xl transition-all duration-700 ease-in-out ${
-              expandedCard === card.id ? 'md:h-[50rem]' : ''
+            className={`relative md:h-[392px] h-[720px] lap:h-[295px] w-full overflow-hidden rounded-3xl transition-all duration-700 ease-in-out ${
+              expandedCard === card.id ? 'md:h-[50rem] lap:h-[37rem]' : ''
             }  ${index < 3 ? upperCardsClass : ''} ${
               index >= 3 ? LowerCardsClass : ''
             }`}
@@ -151,25 +151,22 @@ export function Hero() {
               
               {(showContent || expandedCard === card.id) && (
                 <>
-                {card.id === 3 && (
-                  <div className="text-xl leading-tight text-[#FFFFFF] mt-[150px]">
-                                   E-Scooter muss mit!
-                                 </div>
-                )}
+               
                   <p
-                    className="md:text-xl text-md md:mb-24  text-white mt-[230px]"
+                    className="md:text-xl text-md lap:text-sm md:mb-24 lap:mb-5  text-white mt-[230px] "
                     dangerouslySetInnerHTML={{ __html: card.content }}
                   ></p>
                   {card.id === 1 && (
                     <p
-                    className="md:text-xl text-md md:mb-24  text-white mt-[0px]"
+                    className="md:text-xl text-md lap:text-sm md:mb-24 lap:mt-10 lap:mb-8  text-white mt-[0px]"
                     
-                  >Unser Ziel ist es, dass ihr stets sicher und sorgenfrei unterwegs seid. Wir kümmern uns um euren E-Scooter und bieten euch einen umfassenden Service, damit ihr euch auf das Fahren konzentrieren könnt. Dazu gehört:</p>
+                  >
+                    Unser Ziel ist es, dass ihr stets sicher und sorgenfrei unterwegs seid. Wir kümmern uns um euren E-Scooter und bieten euch einen umfassenden Service, damit ihr euch auf das Fahren konzentrieren könnt. Dazu gehört:</p>
                   )}
                   {card.id === 1 && (
                     <ul
                                     role="list"
-                                    className="mr-auto text-sm md:text-lg mt-0 space-y-2 whitespace-nowrap font-semibold text-slate-100"
+                                    className="mr-auto text-sm lap:text-sm md:text-lg mt-0 space-y-2 whitespace-nowrap font-semibold text-slate-100"
                                   >
                                     <li className="mt-24 flex gap-x-3 md:mt-0 ">
                                       <CheckIcon
