@@ -69,3 +69,13 @@
   transition-timing-function: ease-in-out;
 }
 
+.move-up {
+  transform: translateY(-100%);
+  transition: transform 200ms ease-in-out;
+}
+
+.move-down {
+  transform: translateY(-49%);
+
+}
+
