@@ -75,9 +75,15 @@
 }
 
 .move-down {
-  transform: translateY(-49%);
-
+  transform: translateY(-50%);
 }
+
+.bring-bottom-up {
+  transform: translateY(-240px);
+ 
+}
+
+
 
 
 
