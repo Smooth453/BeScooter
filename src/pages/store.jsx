@@ -1,6 +1,6 @@
 
-import { Header } from '@/components/Header'
-import { Footer } from '@/components/Footer'
+import { Header } from '@/components/utilities/Header'
+import { Footer } from '@/components/utilities/Footer'
 import { Hero } from '@/components/store/Hero'
 import { Opentimes } from '@/components/store/Opentimes'
 import { PrimaryFeatures } from '@/components/store/PrimaryFeatures'

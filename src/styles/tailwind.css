@@ -72,18 +72,19 @@
 .move-up {
   transform: translateY(-100%);
   transition: transform 200ms ease-in-out;
+  transition-duration: 1000ms;
 }
 
 .move-down {
   transform: translateY(-50%);
-}
-
-.bring-bottom-up {
-  transform: translateY(-240px);
- 
+  transition: transform 200ms ease-in-out;
+  transition-duration: 500ms;
 }
 
 
-
-
+@layer utilities {
+  .transition-height {
+    transition-property: height;
+  }
+}
 

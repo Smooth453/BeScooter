@@ -2,12 +2,12 @@ import { Fragment } from 'react'
 import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
-import { Button } from '@/components/Button'
-import { Container } from '@/components/Container'
-import { NavLink } from '@/components/NavLink'
+import { Button } from '@/components/utilities/Button'
+import { Container } from '@/components/utilities/Container'
+import { NavLink } from '@/components/utilities/NavLink'
 import { useState, useRef, useEffect } from 'react'
 import Image from 'next/image'
-import beScooter from '../images/pics/beScooter.png'
+import beScooter from '../../images/pics/beScooter.png'
 
 import {
   ChevronDownIcon,

@@ -80,6 +80,8 @@ export function Hero() {
   const [LowerCardsClass6, setLowerCardsClass6] = useState('')
   const [isMobile, setIsMobile] = useState(false)
   const [showContent, setShowContent] = useState(false)
+  const [timeoutId, setTimeoutId] = useState(null);
+const [hoveredCard, setHoveredCard] = useState(null);
 
   // Set initial isMobile state and handle window resize on the client-side
   useEffect(() => {
@@ -101,18 +103,6 @@ export function Hero() {
 
     setExpandedCard(cardId)
 
-    if(cardId == 1){
-      setLowerCardsClass5('bring-bottom-up')
-      setLowerCardsClass6('bring-bottom-up')
-    } else
-    if(cardId == 2){
-      setLowerCardsClass4('bring-bottom-up')
-      setLowerCardsClass6('bring-bottom-up')
-    } else
-    if(cardId == 3){
-      setLowerCardsClass4('bring-bottom-up')
-      setLowerCardsClass5('bring-bottom-up')
-    } else
     if (cardId == 4) {
       setUpperCardsClass1('move-up')
       setLowerCardsClass4('move-down')
@@ -133,6 +123,8 @@ export function Hero() {
       setLowerCardsClass6('')
     }
     setShowContent(true)
+
+    
   }
 
   const handleMouseLeave = () => {
@@ -155,7 +147,7 @@ export function Hero() {
           <div
             key={card.id}
             className={`relative h-[720px] w-full overflow-hidden rounded-3xl transition-all duration-700 ease-in-out md:h-[220px] lg:h-[392px] ${
-              expandedCard === card.id ? 'md:h-[29rem] lg:h-[50rem]' : ''
+              expandedCard === card.id ? 'h-[20rem] md:h-[29rem] lg:h-[50rem] transition-height ease-in-out' : ''
             }  ${index == 0 ? upperCardsClass1 : ''}
             ${index == 1 ? upperCardsClass2 : ''}
             ${index == 2 ? upperCardsClass3 : ''}

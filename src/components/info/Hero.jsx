@@ -1,4 +1,4 @@
-import { NavLink } from '@/components/NavLink'
+import { NavLink } from '@/components/utilities/NavLink'
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FiPlus, FiMinus } from 'react-icons/fi'

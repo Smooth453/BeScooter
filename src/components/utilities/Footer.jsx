@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import logo from '../images/pics/New_Project.png'
-import fairness from '../images/pics/fairness.jpg'
+import logo from '../../images/pics/New_Project.png'
+import fairness from '../../images/pics/fairness.jpg'
 
 
 export function Footer() {

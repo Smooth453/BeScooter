@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import AnimationOnScroll from '../animationOnScroll/animationOnScroll'
-import { Container } from '@/components/Container'
+import { Container } from '@/components/utilities/Container'
 
 const testimonials = [
   [

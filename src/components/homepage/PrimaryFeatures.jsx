@@ -1,4 +1,4 @@
-import { Container } from '@/components/Container'
+import { Container } from '@/components/utilities/Container'
 import { useState,useEffect } from 'react'
 import Image from 'next/image'
 import thumbnail from '../../images/pics/thumbnail.jpg'
