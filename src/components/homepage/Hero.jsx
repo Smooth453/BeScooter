@@ -80,8 +80,6 @@ export function Hero() {
   const [LowerCardsClass6, setLowerCardsClass6] = useState('')
   const [isMobile, setIsMobile] = useState(false)
   const [showContent, setShowContent] = useState(false)
-  const [timeoutId, setTimeoutId] = useState(null);
-const [hoveredCard, setHoveredCard] = useState(null);
 
   // Set initial isMobile state and handle window resize on the client-side
   useEffect(() => {
@@ -148,7 +146,7 @@ const [hoveredCard, setHoveredCard] = useState(null);
             key={card.id}
             className={`relative h-[720px] w-full overflow-hidden rounded-3xl transition-all duration-700 ease-in-out md:h-[220px] lg:h-[392px] ${
               expandedCard === card.id ? 'h-[20rem] md:h-[29rem] lg:h-[50rem] transition-height ease-in-out' : ''
-            }  ${index == 0 ? upperCardsClass1 : ''}
+            }${index == 0 ? upperCardsClass1 : ''}
             ${index == 1 ? upperCardsClass2 : ''}
             ${index == 2 ? upperCardsClass3 : ''}
             ${index == 3 ? LowerCardsClass4 : ''}

@@ -31,10 +31,10 @@ export function SecondaryFeatures() {
         
 
         modules={[Autoplay, Pagination, Navigation]}
-        className="swiper-container h-full font-poppins "
+        className="swiper-container h-full  font-poppins "
       >
         <SwiperSlide className="md:relative z-0 md:px-20 px-5 pt-5 opacity-0 translate-y-10 intersect:opacity-100 intersect:translate-y-0 transition duration-1000">
-          <div className="grid h-[750px] md:grid-cols-2 lg:grid-cols-2 grid-rows-2 md:grid-rows-none overflow-hidden rounded-3xl bg-gray-300 shadow-md hover:shadow-2xl">
+          <div className="grid lg:h-[750px] md:h-[700px] h-[750px] md:grid-cols-2 lg:grid-cols-2 grid-rows-2 md:grid-rows-none overflow-hidden rounded-3xl bg-gray-300 shadow-md hover:shadow-2xl">
             <div className="md:flex md:flex-col flex-row justify-center md:p-8 p-1 order-2">
               <h2 className="md:mb-10 mb-2 text-left md:text-5xl text-md font-bold text-black">
                 CRUSSIS: Komfort und Sicherheit durch wertigste Komponenten
@@ -50,7 +50,7 @@ export function SecondaryFeatures() {
                 und lange Lebensdauer garantieren.
               </p>
 
-              <button className="w-full md:mt-5 md:p-4 self-start rounded-3xl bg-[#3A3A3A] p-2 mt-2  font-bold text-white hover:bg-opacity-80 text-md"><a href="https://store.be-scooter.de/products/crussis-cobra-4-1-scooterbike?_pos=11&_sid=4078cab7c&_ss=r">CRUISSIS SCooTERBIKES-JETZT ENTDECKEN!</a>
+              <button className="w-full md:mt-5 md:p-4 self-start rounded-3xl bg-[#3A3A3A] p-2 py-4 mt-4  font-bold text-white hover:bg-opacity-80 md:text-md text-sm"><a href="https://store.be-scooter.de/products/crussis-cobra-4-1-scooterbike?_pos=11&_sid=4078cab7c&_ss=r">CRUISSIS SCooTERBIKES-JETZT ENTDECKEN!</a>
               </button>
             </div>
             <div className="relative">
@@ -64,7 +64,7 @@ export function SecondaryFeatures() {
         </SwiperSlide>
 
         <SwiperSlide className="md:relative z-0 md:px-20 px-5 pt-5 ">
-          <div className="grid h-[750px] md:grid-cols-2 lg:grid-cols-2 grid-rows-2 md:grid-rows-none overflow-hidden rounded-3xl bg-gray-300 shadow-md hover:shadow-2xl">
+          <div className="grid lg:h-[750px] md:h-[700px] h-[750px] md:grid-cols-2 lg:grid-cols-2 grid-rows-2 md:grid-rows-none overflow-hidden rounded-3xl bg-gray-300 shadow-md hover:shadow-2xl">
             <div className="flex flex-col md:justify-center md:p-8 order-2 p-1">
               <h2 className="md:mb-10 text-left md:text-5xl text-md font-bold mb-3 text-black">
                 NEUE LIEFERUNG : Stunt-Scooter und Cityroller von Soke
@@ -79,7 +79,7 @@ export function SecondaryFeatures() {
                 zu den fortschrittlichsten Tricks begleitet. Mit SOKE werden
                 Champions geboren.
               </p>
-              <button className="w-full md:mt-5 self-start rounded-3xl bg-[#3A3A3A] p-4 mt-3 font-bold text-white hover:bg-opacity-80 text-md"><a href="https://store.be-scooter.de/collections/soke">Soke SCooTERBIKES Entdecken</a>
+              <button className="w-full md:mt-5 self-start rounded-3xl bg-[#3A3A3A] p-4 mt-3 font-bold text-white hover:bg-opacity-80 md:text-md text-sm"><a href="https://store.be-scooter.de/collections/soke">Soke SCooTERBIKES Entdecken</a>
                 
               </button>
             </div>
@@ -94,7 +94,7 @@ export function SecondaryFeatures() {
         </SwiperSlide>
 
         <SwiperSlide className="md:relative z-0 md:px-20 px-5 pt-5 ">
-          <div className="grid h-[750px] md:grid-cols-2 lg:grid-cols-2 grid-rows-2 md:grid-rows-none overflow-hidden rounded-3xl bg-gray-300 shadow-md hover:shadow-2xl">
+          <div className="grid lg:h-[750px] md:h-[700px] h-[750px] md:grid-cols-2 lg:grid-cols-2 grid-rows-2 md:grid-rows-none overflow-hidden rounded-3xl bg-gray-300 shadow-md hover:shadow-2xl">
             <div className="flex flex-col md:justify-center md:p-8 md:order-1 order-2 p-1">
               <h2 className="md:mb-10 mb-3 text-left md:text-5xl text-md font-bold text-black">
                 JEDOO EMOJI : Laufräder und Tretroller
@@ -110,7 +110,7 @@ export function SecondaryFeatures() {
                 die kleinen Fahrer dann von ihrem Tag berichten, sollten es
                 viele 😍🔝👍🏻🌈 geben.
               </p>
-              <button className="w-full md:mt-5 self-start rounded-3xl bg-[#3A3A3A] p-4 mt-3 font-bold text-white hover:bg-opacity-80 text-md">
+              <button className="w-full md:mt-5 self-start rounded-3xl bg-[#3A3A3A] p-4 mt-3 font-bold text-white hover:bg-opacity-80 md:text-md text-sm">
                 <a href="https://store.be-scooter.de/products/yedoo-laufrad-tootoo-emoji?_pos=1&_psq=emoji%2B&_ss=e&_v=1.0">HIER GEHTS ZUM KACKHÄUFCHEN👍🏻</a>
                 
               </button>

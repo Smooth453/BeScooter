@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import leihenbike from '../../images/leihen/leihenbike2.jpeg'
-import { motion } from 'framer-motion';
+
 
 export function Hero() {
   return (
-    <section className="relative flex flex-col items-center justify-center py-0 px-3 text-center font-poppins text-white md:h-[800px] ">
+    <section className="relative flex flex-col items-center justify-center py-0 px-3 text-center font-poppins text-white md:h-screen ">
       <div className="absolute top-0 left-0 h-full w-full overflow-hidden">
         <Image
           className="h-[310px] lg:w-full md:mb-10 w-full rounded md:object-cover object-cover object-center brightness-50 md:h-full md:w-full"
