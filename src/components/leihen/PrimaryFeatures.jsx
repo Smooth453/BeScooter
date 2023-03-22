@@ -25,10 +25,10 @@ export function PrimaryFeatures() {
 
   return (
     <>
-      <div className="relative mt-0 flex h-[225px] w-full items-center justify-center bg-gradient-to-b from-blue-400 to-green-500 brightness-[0.88]">
+      <div className="relative mt-0 flex flex h-[225px] w-full items-center justify-center bg-gradient-to-b from-blue-400 to-green-500 brightness-[0.9]">
         <Image  src={verleihlogo} alt="verleihlogo" width={410} height={500} />
       </div>
-      <div className="relative h-[800px] w-full">
+      <div className="relative h-[800px] w-full ">
         <div
           className={`absolute top-0 left-0 h-full w-1/2 transition-all duration-1000 ease-in-out  ${
             isHovered1 ? 'z-10 w-full' : ''

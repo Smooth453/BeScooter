@@ -13,11 +13,12 @@ export function Hero() {
         />
       </div>
       <div className="video-content md:mt-15 space-y-2 md:w-[800px] my-3">
-        <h1 className="break-word text-2xl font-bold">Be-Leihen</h1>
+        <h1 className="break-word text-2xl font-bold">TU ES EINFACH - ER WIRD AUCH DICH BEGEISTERN! </h1>
         <h3 className="text-lg font-normal md:text-3xl tracking-wide">
-          Ob für einen Tag, ein Wochenende oder den Urlaub an der See sowie dem
-          Campingplatz - erfahre mit einem unserer Leih-E-Scooter, zahlreiche
-          Vorteile, spare bares Geld und habe Spaß.
+        <br />
+          Teste jetzt einen PREMIUM E-SCooTER aus unsere BE-SCooTER verleihflotte. <br />
+          <br />
+          Faire Bedingungen und einen E-SCooTER der hält, was er erspricht. Ganz egal ob für den nächsten Urlaub, für einen Test in deinem persönlichn Alltag als Alternative zuum Auto oder einfach nur zum cruisen durch unsere großartige Heimat - auch dich wird der elektrounterstütze Tretroller begeistern.
         </h3>
         
       </div>
