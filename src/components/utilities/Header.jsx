@@ -9,9 +9,7 @@ import { useState, useRef, useEffect } from 'react'
 import Image from 'next/image'
 import beScooter from '../../images/pics/beScooter.png'
 
-import {
-  ChevronDownIcon,
-} from '@heroicons/react/24/solid'
+import { ChevronDownIcon } from '@heroicons/react/24/solid'
 
 function MobileNavLink({ href, children }) {
   return (
@@ -88,19 +86,19 @@ function MobileNavigation() {
           >
             <MobileNavLink href="/">Home</MobileNavLink>
             <MobileNavLink href="/store">
-            &quot;SToRE!&quot; Heuchelheim
+              &quot;SToRE!&quot; Heuchelheim
             </MobileNavLink>
             <MobileNavLink href="/E-scooter-leihen">
               E-Scooter leihen
             </MobileNavLink>
-            <MobileNavLink href="/events">Events</MobileNavLink>
+            <MobileNavLink href="/Events">Events</MobileNavLink>
             <MobileNavLink href="/ueber-uns">Über uns</MobileNavLink>
             <MobileNavLink href="/jobs">Jobs</MobileNavLink>
             <MobileNavLink href="/info">Info</MobileNavLink>
             <MobileNavLink href="/#kontakt">Kontakt uns</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
             <MobileNavLink className="" href="https://store.be-scooter.de/">
-              Direkt Zum  &quot;SToRE ONLINE!&quot;
+              Direkt Zum &quot;SToRE ONLINE!&quot;
             </MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
@@ -159,12 +157,12 @@ export function Header() {
 
   return (
     <header
-      className={` navbar top-0 z-50 bg-gradient-to-b from-blue-400 to-green-400 py-3 lg:pt-10 transition duration-500 md:sticky ${
+      className={` navbar top-0 z-50 bg-gradient-to-b from-blue-400 to-green-400 py-3 transition duration-500 md:sticky lg:pt-10 ${
         isScrolled ? 'navbar-smaller' : ''
       }`}
     >
       <Container>
-        <nav className="lg:h-5 relative z-50  flex justify-between ">
+        <nav className="relative z-50 flex  justify-between lg:h-5 ">
           <div className="flex items-center md:gap-x-12">
             <Link href="/" aria-label="Home">
               <Image
@@ -199,27 +197,26 @@ export function Header() {
                 onMouseLeave={toggleDropdown}
               >
                 <div className="ml-4 flex flex-col p-0 ">
-                  <div className='hover:underline'>
-                  <NavLink href="/events" className="mb-2 block ">
-                    Events
-                  </NavLink>
+                  <div className=" transform transition duration-500 ease-in-out hover:scale-110 hover:underline">
+                    <NavLink href="/Events" className="mb-2 block ">
+                      Events
+                    </NavLink>
                   </div>
-                  <div className='hover:underline'>
-                  <NavLink href="/ueber-uns" className="mb-2 block">
-                    Über uns
-                  </NavLink>
+                  <div className="transform transition duration-500 ease-in-out hover:scale-110 hover:underline">
+                    <NavLink href="/ueber-uns" className="mb-2 block">
+                      Über uns
+                    </NavLink>
                   </div>
-                  <div className='hover:underline'>
-                  <NavLink href="/jobs" className="mb-2 block">
-                    Jobs
-                  </NavLink>
+                  <div className="transform transition duration-500 ease-in-out hover:scale-110 hover:underline">
+                    <NavLink href="/jobs" className="mb-2 block">
+                      Jobs
+                    </NavLink>
                   </div>
-                  <div className='hover:underline'>
-                  <NavLink href="/info" className="mb-2 block">
-                    Info
-                  </NavLink>
+                  <div className="transform transition duration-500 ease-in-out hover:scale-110 hover:underline">
+                    <NavLink href="/info" className="mb-2 block">
+                      Info
+                    </NavLink>
                   </div>
-                  
                 </div>
               </div>
             </div>
@@ -230,17 +227,16 @@ export function Header() {
             <Button
               href="https://store.be-scooter.de/"
               color="transparent"
-              className="hover:bg-white-500 hidden border border-black hover:border-white hover:opacity-80 md:block"
+              className="hover:bg-white-500 hidden border-2 border-black hover:border-white hover:opacity-80 md:block transform transition duration-500 ease-in-out hover:scale-110"
             >
               <span>
-                Direkt zum &quot;SToRE ONLINE!&quot; {' '}
-                <span className="lg:inline hidden"></span>
+                Direkt zum &quot;SToRE ONLINE!&quot;{' '}
+                <span className="hidden lg:inline"></span>
               </span>
             </Button>
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
             </div>
-            
           </div>
         </nav>
       </Container>

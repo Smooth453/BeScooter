@@ -5,7 +5,7 @@ import AnimationOnScroll from '../animationOnScroll/animationOnScroll'
 export function Opentimes() {
   return (
     <section className="body-font bg-gradient-to-b from-blue-400 to-green-500 font-poppins">
-      <div className="container mx-auto flex flex-col items-center justify-center px-5 py-10 md:py-10">
+      <div className="md:container mx-auto flex flex-col items-center justify-center px-5 py-10 md:py-10">
         <div className="lg:w-2/3 w-full text-center">
         <AnimationOnScroll
           classNameInView={'opacity-100 translate-y-0 transition duration-[1s]'}
@@ -44,7 +44,7 @@ export function Opentimes() {
           classNameInView={'opacity-100 translate-y-0 transition duration-[1s]'}
           classNameNotInView={'opacity-0 translate-y-10'}>
           <Image
-            className="lg:w-2/6 mx-auto mb-10 w-11/12 rounded object-cover object-center md:w-5/6"
+            className="lg:w-3/6 mx-auto mb-10 w-full rounded object-cover object-center md:w-5/6"
             alt="hero"
             src={opentimes}
           />

@@ -6,7 +6,7 @@ export function SecondaryFeatures() {
     <section className=" bg-[#8dd5e2] relative flex md:h-screen flex-col items-center justify-center py-0 md:px-3 text-center text-gray-900 font-poppins">
       <div className=" md:absolute top-0 left-0 h-full w-full overflow-hidden">
         <Image
-          className="lg:w-2/6 md:mb-10 w-full rounded object-cover object-center md:opacity-70 md:h-full md:w-full"
+          className=" md:mb-10 w-full rounded object-cover object-center md:opacity-70 md:h-full md:w-full"
           alt="hero"
           src={segway}
         />

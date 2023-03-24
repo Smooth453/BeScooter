@@ -12,9 +12,9 @@ export function Knausgaard() {
     setShowVideo(true)
   }
   return (
-    <div className="sm:py-32 overflow-hidden bg-[#7e92a575] py-10 md:py-24">
-      <div className="lg:px-8 mx-auto max-w-7xl px-6">
-        <AnimationOnScroll classNameInView={"opacity-100 translate-y-0 transition duration-1000"} classNameNotInView={"opacity-0 translate-y-10"}>
+    <div className="overflow-hidden bg-[#7e92a575] py-10 md:py-24">
+    <div className="lg:px-8 mx-auto max-w-7xl px-6">
+      <AnimationOnScroll classNameInView={"opacity-100 translate-y-0 transition duration-1000"} classNameNotInView={"opacity-0 translate-y-10"}>
         <div className="sm:gap-y-20 lg:mx-0 lg:max-w-none mx-auto grid-cols-2 gap-y-16 gap-x-8 md:grid">
         <Image
             src={Erget}
@@ -22,13 +22,10 @@ export function Knausgaard() {
             className="md:hidden lg:ml-auto rounded-xl shadow-xl ring-1 ring-gray-400/10 md:h-[600px] md:w-[700]"
           />
           <div className="lg:pr-8 lg:pt-4">
-            <div className="lg:max-w-lg h-[598px] flex-col justify-between font-poppins md:flex">
+            <div className="lg:max-w-lg h-[598px] flex-col justify-between font-poppins flex">
               <div>
                 <h2 className="sm:text-4xl mt-2 break-words text-3xl font-bold tracking-widest	 text-[#333333]">
-                  AUTHORIZED SERVICE
-                </h2>
-                <h2 className="sm:text-4xl mt-2  text-3xl font-bold tracking-widest  text-[#333333]">
-                  FÜR EGRET
+                  AUTHORIZED SERVICE <br /> FÜR EGRET
                 </h2>
               </div>
               <p className="text-md mt-6 leading-8 text-[#333333] md:text-lg">
@@ -55,11 +52,11 @@ export function Knausgaard() {
           />
           </div>
 
-        </div>
+          </div>
         </AnimationOnScroll>
         <AnimationOnScroll classNameInView={"opacity-100 translate-y-0 transition duration-1000"} classNameNotInView={"opacity-0 translate-y-10"}>
-        <div className="sm:gap-y-20 lg:mx-0 lg:max-w-none mx-auto mt-20 grid-cols-2 gap-y-16 gap-x-8 md:grid ">
-          <div className="mt-10 flex items-center justify-center">
+          <div className="sm:gap-y-20 lg:mx-0 lg:max-w-none mx-auto mt-28 grid-cols-2 gap-y-16 gap-x-8 md:grid">
+            <div className="mt-10 flex items-center justify-center">
             {!showVideo && (
               <div className="relative h-full w-full md:h-[565px] md:w-[900px]">
                 <Image
@@ -91,7 +88,7 @@ export function Knausgaard() {
             )}
           </div>
           <div className="lg:pr-8 lg:pt-4">
-            <div className="lg:max-w-lg mt-10 h-[550px] flex-col justify-between font-poppins md:flex">
+              <div className="lg:max-w-lg flex-col justify-between font-poppins flex">
               <div>
                 <h2 className="sm:text-4xl mt-2 break-words text-3xl font-bold tracking-widest	 text-[#333333]">
                   TRITTBRETT:

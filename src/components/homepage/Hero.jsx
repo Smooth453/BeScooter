@@ -145,7 +145,7 @@ export function Hero() {
           <div
             key={card.id}
             className={`relative h-[720px] w-full overflow-hidden rounded-3xl transition-all duration-700 ease-in-out md:h-[220px] lg:h-[392px] ${
-              expandedCard === card.id ? 'h-[20rem] md:h-[29rem] lg:h-[50rem] transition-height ease-in-out' : ''
+              expandedCard === card.id ? 'h-[20rem] md:h-[27rem] lg:h-[50rem] transition-height ease-in-out' : ''
             }${index == 0 ? upperCardsClass1 : ''}
             ${index == 1 ? upperCardsClass2 : ''}
             ${index == 2 ? upperCardsClass3 : ''}
@@ -175,12 +175,14 @@ export function Hero() {
 
               {(showContent || expandedCard === card.id) && (
                 <>
+                {(card.id === 3 || card.id == 4 || card.id === 5 || card.id === 6 ) && (
                   <p
-                    className="mt-[230px] text-lg text-white md:mb-0 md:text-sm  lg:mb-24 lg:text-xl "
+                    className="mt-[230px] text-lg text-white md:mb-20 md:mt-24 md:text-sm lg:text-2xl lg:mt-48 text-center"
                     dangerouslySetInnerHTML={{ __html: card.content }}
                   ></p>
+                )}
                   {card.id === 2 && (
-                    <p className="text-lg text-white md:mt-10  md:mb-8 md:text-sm lg:mb-24  lg:text-xl ">
+                    <p className="text-lg text-white md:mt-16 md:mb-5 md:text-sm lg:mb-24 lg:text-2xl mt-24 lg:mt-36 text-center">
                       Komme doch einfach bei uns im &quot;SToRE!&quot; in
                       Heuchelheim vorbei und lasse dich von uns persönlich
                       beraten. Wir helfen dir gerne dabei, den perfekten
@@ -193,7 +195,7 @@ export function Hero() {
                     </p>
                   )}
                   {card.id === 1 && (
-                    <p className="lap:mb-8 mt-[0px]  text-white md:mt-10 md:text-sm  lg:mb-24 lg:text-xl">
+                    <p className=" text-white mb-10 md:mt-20 md:mb-5 lg:text-xl md:text-sm mt-24 lg:mt-28">
                       Unser Ziel ist es, dass ihr stets sicher und sorgenfrei
                       unterwegs seid. Wir kümmern uns um euren E-Scooter und
                       bieten euch einen umfassenden Service, damit ihr euch auf
@@ -203,9 +205,9 @@ export function Hero() {
                   {card.id === 1 && (
                     <ul
                       role="list"
-                      className="text-md mr-auto mt-0 space-y-2 whitespace-nowrap font-semibold text-slate-100 md:text-xs lg:text-lg"
+                      className="text-md mr-auto mt-0  whitespace-nowrap font-semibold text-slate-100 md:text-xs lg:text-lg"
                     >
-                      <li className="mt-24 flex gap-x-3 md:mt-0 ">
+                      <li className="flex gap-x-3 md:mt-0 mt-10 leading-loose lg:mt-10">
                         <CheckIcon
                           className="h-6 w-5 flex-none text-slate-100"
                           aria-hidden="true"
@@ -231,7 +233,7 @@ export function Hero() {
                           className="h-6 w-5 flex-none text-slate-100"
                           aria-hidden="true"
                         />
-                        Probleme zu analysieren und eine <br /> Lösung zu
+                        Probleme zu analysieren und eine Lösung <br/> zu
                         finden.
                       </li>
                       <li className="flex gap-x-3">
@@ -246,30 +248,32 @@ export function Hero() {
                           className="h-6 w-5 flex-none text-slate-100"
                           aria-hidden="true"
                         />
-                        eine persönliche Note in Form von <br />{' '}
+                        eine persönliche Note in Form von <br />
                         Pulverbeschichtungen
                       </li>
                     </ul>
                   )}
                   <div className="mt-auto mb-10 w-full text-center">
+                  {(card.id === 3 || card.id == 4 || card.id === 5 || card.id === 6 ) && (
                     <a
                       href={card.href}
-                      className="mt-24 block rounded-md border-[#4a6d92] bg-[#4a6d92] py-3 px-4 font-bold text-white transition duration-300 hover:-translate-y-1 hover:bg-[#3f5872] md:mt-12"
+                      className="mt-24 block rounded-md border-[#4a6d92] bg-[#4a6d92] py-3 px-4 font-bold text-white transition duration-300 hover:-translate-y-1 hover:bg-[#3f5872] md:mt-0"
                     >
                       {card.buttonText}
                     </a>
+                  )}
                     {card.id === 1 && (
                       <a
-                        href={card.href}
-                        className="mt-24 block rounded-md border-[#4a6d92] bg-[#4a6d92] py-3 px-4 font-bold text-white transition duration-300 hover:-translate-y-1 hover:bg-[#3f5872] md:mt-32 lg:mt-44"
-                      >
-                        {card.buttonText}
-                      </a>
+                      href={card.href}
+                      className="mt-24 block rounded-md border-[#4a6d92] bg-[#4a6d92] py-3 px-4 font-bold text-white transition duration-300 hover:-translate-y-1 hover:bg-[#3f5872] md:mt-3 lg:mt-10"
+                    >
+                      {card.buttonText}
+                    </a>
                     )}
                     {card.id === 2 && (
                       <a
                         href={card.href}
-                        className="mt-20 block rounded-md border-[#4a6d92] bg-[#4a6d92] py-3 px-4 font-bold text-white transition duration-300 hover:-translate-y-1 hover:bg-[#3f5872] md:mt-32 lg:mt-44"
+                        className="mt-20 block rounded-md border-[#4a6d92] bg-[#4a6d92] py-3 px-4 font-bold text-white transition duration-300 hover:-translate-y-1 hover:bg-[#3f5872] md:mt-5 lg:mt-0"
                       >
                         {card.buttonText}
                       </a>

@@ -19,7 +19,7 @@
     "clsx": "^1.2.1",
     "emailjs-com": "^3.2.0",
     "focus-visible": "^5.2.0",
-    "framer-motion": "^10.6.0",
+    "framer-motion": "^10.8.5",
     "fs": "^0.0.1-security",
     "heroicons": "^2.0.16",
     "intl-tel-input": "^17.0.19",
@@ -33,6 +33,7 @@
     "react-intersection-observer": "^9.4.3",
     "react-scroll": "^1.8.9",
     "react-scroll-parallax": "^3.3.2",
+    "react-swipeable": "^7.0.0",
     "react-transition-group": "^4.4.5",
     "swiper": "^9.1.0",
     "tailwindcss": "^3.2.7"

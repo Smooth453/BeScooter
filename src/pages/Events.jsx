@@ -1,17 +1,13 @@
-
 import { Header } from '@/components/utilities/Header'
 import { Footer } from '@/components/utilities/Footer'
-import { Hero } from '@/components/ueber-uns/Hero'
-import { PrimaryFeatures } from '@/components/ueber-uns/PrimaryFeatures'
+import { Hero } from '@/components/events/Hero'
 
-
-export default function store() {
+export default function Events() {
   return (
     <>
     <Header />
     <main>
     <Hero />
-    <PrimaryFeatures />
     </main>
     <Footer />
     </>

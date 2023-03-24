@@ -7,6 +7,7 @@ module.exports = {
     screens: {
       'lg': '1530px',
       'md': '768px',
+      'sm': '100px'
       // => @media (min-width: 576px) { ... }
     },
     fontSize: {

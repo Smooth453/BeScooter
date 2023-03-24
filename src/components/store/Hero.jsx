@@ -7,8 +7,8 @@ import AnimationOnScroll from '../animationOnScroll/animationOnScroll'
 
 export function Hero() {
   return (
-    <section className="body-font bg-[#7e92a575] font-poppins md:h-[733px]">
-      <div className="container mx-auto flex flex-col items-center justify-center px-5  py-7">
+    <section className="body-font bg-[#7e92a575] font-poppins md:h-[833px]">
+      <div className="md:container mx-auto flex flex-col items-center justify-center px-5  py-7">
       <h1 className="title-font md:text-3xl leading-wide mb-5 lg:mb-8 lg:text-4xl text-4xl font-bold text-gray-900 text-center">
             JETZT VIRTUELLES SHOPPING IM BE-SCOOTER® &quot;STORE!&quot; IN
             HEUCHELHEIM.
