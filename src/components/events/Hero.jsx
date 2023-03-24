@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import AnimationOnScroll from '../animationOnScroll/animationOnScroll'
 import fahrstunde from '../../images/events/Fahrstunde.jpg'
-import birthdayCruise from '../../images/Events/birthdayCruise.jpg'
+import birthdayCruise from '../../images/events/birthdayCruise.jpg'
 
 export function Hero() {
   return (

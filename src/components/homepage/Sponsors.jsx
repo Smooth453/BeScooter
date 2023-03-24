@@ -23,7 +23,7 @@ import logo16 from '../../images/avatars/logo(16).png'
 import logo17 from '../../images/avatars/logo(17).png'
 import logo18 from '../../images/avatars/logo(18).jpeg'
 import logo19 from '../../images/avatars/logo(19).png'
-import bePartners from '../../images/avatars/bePartners.png'
+import bePartners from '../../images/avatars/BePartners.png'
 
 const sponsorLogos = [
   '/images/avatars/logo(1).png',
