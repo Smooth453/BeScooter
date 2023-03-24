@@ -1,7 +1,7 @@
 import { CheckIcon } from '@heroicons/react/20/solid'
 import React from 'react'
 import { useState, useEffect } from 'react'
-import Image from 'next/Image'
+import Image from 'next/image'
 import verkauf from '../../images/pics/verkauf.jpeg'
 import reparatur from '../../images/pics/reparatur.jpg'
 import verleih from '../../images/pics/verleih.jpeg'

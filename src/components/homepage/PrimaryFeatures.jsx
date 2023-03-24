@@ -1,9 +1,8 @@
 import { Container } from '@/components/utilities/Container'
-import { useState,useEffect } from 'react'
+import { useState } from 'react'
 import Image from 'next/image'
 import thumbnail from '../../images/pics/thumbnail.jpg'
 import playLogo from '../../images/pics/playbutton.png'
-import Observer from 'tailwindcss-intersect'
 import { useRouter } from "next/navigation";
 import AnimationOnScroll from '../animationOnScroll/animationOnScroll'
 

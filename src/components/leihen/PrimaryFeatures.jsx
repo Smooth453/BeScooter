@@ -8,8 +8,6 @@ import yedoo2016 from '../../images/leihen/yedoo2016.jpg'
 import yedoo2020 from '../../images/leihen/yedoo2020.jpg'
 import yedoo2620 from '../../images/leihen/yedoo2620.jpg'
 import { Transition } from '@headlessui/react'
-import AnimationOnScroll from '../animationOnScroll/animationOnScroll'
-
 const images = [
   {
     id: 1,

@@ -1,4 +1,4 @@
-
+import Head from 'next/head'
 import { Header } from '@/components/utilities/Header'
 import { Footer } from '@/components/utilities/Footer'
 import { Hero } from '@/components/store/Hero'
@@ -9,6 +9,9 @@ import { SecondaryFeatures } from '@/components/store/SecondaryFeatures'
 export default function store() {
   return (
     <>
+     <Head>
+      <title>&quot;SToRE&quot; Heuchelheim</title>
+    </Head>
     <Header />
     <main>
     

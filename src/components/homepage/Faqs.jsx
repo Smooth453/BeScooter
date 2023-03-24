@@ -1,10 +1,7 @@
 
 import 'intl-tel-input/build/css/intlTelInput.css'
-
 import ContactForm from "../homepage/ContactForm";
 import AnimationOnScroll from '../animationOnScroll/animationOnScroll'
-
-
 
 export function Faqs() {
   return (

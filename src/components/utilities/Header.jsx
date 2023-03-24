@@ -92,9 +92,9 @@ function MobileNavigation() {
               E-Scooter leihen
             </MobileNavLink>
             <MobileNavLink href="/Events">Events</MobileNavLink>
-            <MobileNavLink href="/ueber-uns">Über uns</MobileNavLink>
-            <MobileNavLink href="/jobs">Jobs</MobileNavLink>
-            <MobileNavLink href="/info">Info</MobileNavLink>
+            <MobileNavLink href="/Ueber-uns">Über uns</MobileNavLink>
+            <MobileNavLink href="/Jobs">Jobs</MobileNavLink>
+            <MobileNavLink href="/Info">Info</MobileNavLink>
             <MobileNavLink href="/#kontakt">Kontakt uns</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
             <MobileNavLink className="" href="https://store.be-scooter.de/">
@@ -203,17 +203,17 @@ export function Header() {
                     </NavLink>
                   </div>
                   <div className="transform transition duration-500 ease-in-out hover:scale-110 hover:underline">
-                    <NavLink href="/ueber-uns" className="mb-2 block">
+                    <NavLink href="/Ueber-uns" className="mb-2 block">
                       Über uns
                     </NavLink>
                   </div>
                   <div className="transform transition duration-500 ease-in-out hover:scale-110 hover:underline">
-                    <NavLink href="/jobs" className="mb-2 block">
+                    <NavLink href="/Jobs" className="mb-2 block">
                       Jobs
                     </NavLink>
                   </div>
                   <div className="transform transition duration-500 ease-in-out hover:scale-110 hover:underline">
-                    <NavLink href="/info" className="mb-2 block">
+                    <NavLink href="/Info" className="mb-2 block">
                       Info
                     </NavLink>
                   </div>

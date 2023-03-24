@@ -7,9 +7,6 @@ import team5 from '../../images/team/team (5).jpg'
 import team6 from '../../images/team/team (6).jpg'
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import news1 from '../../images/pics/news1.png'
-import news2 from '../../images/pics/news2.png'
-import news3 from '../../images/pics/news3.png'
 
 // Import Swiper styles
 import 'swiper/css'

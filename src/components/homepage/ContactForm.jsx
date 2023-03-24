@@ -4,8 +4,6 @@ import TextareaField from '../homepage/TextareaField'
 import emailjs from 'emailjs-com'
 import intlTelInput from 'intl-tel-input'
 import AnimationOnScroll from '../animationOnScroll/animationOnScroll'
-import { animate } from 'framer-motion'
-
 
 const ContactForm = () => {
   const phoneInput = useRef(null)
@@ -90,10 +88,9 @@ const ContactForm = () => {
         <InputField
           value={values.fullName}
           handleChange={handleChange}
-          
           name="fullName"
           type="text"
-          placeholder="John Doe"
+          placeholder="Name"
         />
         </div>
         <div>
@@ -104,7 +101,7 @@ const ContactForm = () => {
           
           name="email"
           type="email"
-          placeholder="jphn@example.com"
+          placeholder="john@example.com"
         />
         </div>
         <div>
@@ -118,7 +115,6 @@ const ContactForm = () => {
             handlePhoneChange(e)
             handleChange(e)
           }}
-          
           name="phone"
           type="tel"
         />
@@ -129,7 +125,7 @@ const ContactForm = () => {
           
           value={values.message}
           handleChange={handleChange}
-          
+          placeholder="Nachricht"
           name="message"
         />
         </div>

@@ -1,4 +1,4 @@
-import AnimationOnScroll from '../animationOnScroll/animationOnScroll'
+
 import Image from 'next/image'
 import ErgetScooter from '../../images/store/ErgetScooter.jpg'
 

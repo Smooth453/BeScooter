@@ -1,9 +1,4 @@
 import Head from 'next/head'
-import { Link } from 'react-scroll';
-import { useEffect } from 'react';
-
-import Observer from "tailwindcss-intersect"
-
 import {Sponsors } from '@/components/homepage/Sponsors'
 import { Faqs } from '@/components/homepage/Faqs'
 import { Footer } from '@/components/utilities/Footer'
@@ -19,6 +14,10 @@ export default function Home() {
 
   return (
     <>
+    <Head>
+      <title>Be-SCooTER</title>
+      
+    </Head>
        <Header />  
       <main >
      
